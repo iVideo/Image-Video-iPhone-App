@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C29E690185A711B0044B7BC /* ImageSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29E68F185A711B0044B7BC /* ImageSaveViewController.m */; };
+		9C29E692185A9CE10044B7BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C29E691185A9CE10044B7BC /* MobileCoreServices.framework */; };
+		9C29E695185AA14B0044B7BC /* VideoSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29E694185AA14B0044B7BC /* VideoSaveViewController.m */; };
 		9CAD470F185A66240030F491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD470E185A66240030F491 /* Foundation.framework */; };
 		9CAD4711185A66240030F491 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD4710185A66240030F491 /* CoreGraphics.framework */; };
 		9CAD4713185A66240030F491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD4712185A66240030F491 /* UIKit.framework */; };
@@ -21,6 +24,9 @@
 		9CAD4730185A66240030F491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAD4712185A66240030F491 /* UIKit.framework */; };
 		9CAD4738185A66240030F491 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD4736185A66240030F491 /* InfoPlist.strings */; };
 		9CAD473A185A66240030F491 /* Image_VideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD4739185A66240030F491 /* Image_VideoTests.m */; };
+		9CAD4746185A681E0030F491 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD4743185A681E0030F491 /* Image.png */; };
+		9CAD4747185A681E0030F491 /* Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD4744185A681E0030F491 /* Photos.png */; };
+		9CAD4748185A681E0030F491 /* Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD4745185A681E0030F491 /* Video.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C29E68E185A711B0044B7BC /* ImageSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSaveViewController.h; sourceTree = "<group>"; };
+		9C29E68F185A711B0044B7BC /* ImageSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSaveViewController.m; sourceTree = "<group>"; };
+		9C29E691185A9CE10044B7BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9C29E693185AA14B0044B7BC /* VideoSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSaveViewController.h; sourceTree = "<group>"; };
+		9C29E694185AA14B0044B7BC /* VideoSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoSaveViewController.m; sourceTree = "<group>"; };
 		9CAD470B185A66240030F491 /* Image_Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Image_Video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAD470E185A66240030F491 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9CAD4710185A66240030F491 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,9 @@
 		9CAD4735185A66240030F491 /* Image_VideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image_VideoTests-Info.plist"; sourceTree = "<group>"; };
 		9CAD4737185A66240030F491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CAD4739185A66240030F491 /* Image_VideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_VideoTests.m; sourceTree = "<group>"; };
+		9CAD4743185A681E0030F491 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
+		9CAD4744185A681E0030F491 /* Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photos.png; sourceTree = "<group>"; };
+		9CAD4745185A681E0030F491 /* Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C29E692185A9CE10044B7BC /* MobileCoreServices.framework in Frameworks */,
 				9CAD4711185A66240030F491 /* CoreGraphics.framework in Frameworks */,
 				9CAD4713185A66240030F491 /* UIKit.framework in Frameworks */,
 				9CAD470F185A66240030F491 /* Foundation.framework in Frameworks */,
@@ -101,6 +116,7 @@
 		9CAD470D185A66240030F491 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C29E691185A9CE10044B7BC /* MobileCoreServices.framework */,
 				9CAD470E185A66240030F491 /* Foundation.framework */,
 				9CAD4710185A66240030F491 /* CoreGraphics.framework */,
 				9CAD4712185A66240030F491 /* UIKit.framework */,
@@ -112,6 +128,9 @@
 		9CAD4714185A66240030F491 /* Image_Video */ = {
 			isa = PBXGroup;
 			children = (
+				9CAD4743185A681E0030F491 /* Image.png */,
+				9CAD4744185A681E0030F491 /* Photos.png */,
+				9CAD4745185A681E0030F491 /* Video.png */,
 				9CAD471D185A66240030F491 /* AppDelegate.h */,
 				9CAD471E185A66240030F491 /* AppDelegate.m */,
 				9CAD4720185A66240030F491 /* Main.storyboard */,
@@ -119,6 +138,10 @@
 				9CAD4724185A66240030F491 /* ViewController.m */,
 				9CAD4726185A66240030F491 /* Images.xcassets */,
 				9CAD4715185A66240030F491 /* Supporting Files */,
+				9C29E68E185A711B0044B7BC /* ImageSaveViewController.h */,
+				9C29E68F185A711B0044B7BC /* ImageSaveViewController.m */,
+				9C29E693185AA14B0044B7BC /* VideoSaveViewController.h */,
+				9C29E694185AA14B0044B7BC /* VideoSaveViewController.m */,
 			);
 			path = Image_Video;
 			sourceTree = "<group>";
@@ -199,6 +222,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Johnny Caraveo";
 				TargetAttributes = {
+					9CAD470A185A66240030F491 = {
+						DevelopmentTeam = BNLYT43L8U;
+					};
 					9CAD472B185A66240030F491 = {
 						TestTargetID = 9CAD470A185A66240030F491;
 					};
@@ -231,6 +257,9 @@
 				9CAD4727185A66240030F491 /* Images.xcassets in Resources */,
 				9CAD4719185A66240030F491 /* InfoPlist.strings in Resources */,
 				9CAD4722185A66240030F491 /* Main.storyboard in Resources */,
+				9CAD4746185A681E0030F491 /* Image.png in Resources */,
+				9CAD4747185A681E0030F491 /* Photos.png in Resources */,
+				9CAD4748185A681E0030F491 /* Video.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CAD4725185A66240030F491 /* ViewController.m in Sources */,
+				9C29E690185A711B0044B7BC /* ImageSaveViewController.m in Sources */,
 				9CAD471F185A66240030F491 /* AppDelegate.m in Sources */,
 				9CAD471B185A66240030F491 /* main.m in Sources */,
+				9C29E695185AA14B0044B7BC /* VideoSaveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image_Video/Image_Video-Prefix.pch";
 				INFOPLIST_FILE = "Image_Video/Image_Video-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +425,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image_Video/Image_Video-Prefix.pch";
 				INFOPLIST_FILE = "Image_Video/Image_Video-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +497,7 @@
 				9CAD473F185A66240030F491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CAD4740185A66240030F491 /* Build configuration list for PBXNativeTarget "Image_VideoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +506,7 @@
 				9CAD4742185A66240030F491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

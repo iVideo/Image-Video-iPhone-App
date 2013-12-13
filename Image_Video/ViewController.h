@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImageSaveViewController.h"
+#import "VideoSaveViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+{
+    
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)recordVideo:(id)sender;
+- (IBAction)onGallery:(id)sender;
+
 
 @end
